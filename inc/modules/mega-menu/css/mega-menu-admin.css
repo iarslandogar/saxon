@@ -1,0 +1,20 @@
+/*
+*   Mega Menu backend styles
+*/
+
+.fontawesome-select,
+.fontawesome-select option {
+    font-family: "fontawesome", "Open sans";
+}
+.button.upload-menu-item-bg,
+.button.remove-menu-item-bg {
+    position: relative;
+    top: -2px;
+    width: 100px;
+}
+.button.remove-menu-item-bg {
+    color: red;
+}
+.menu-item-edit-active .menu-item-settings {
+  display: table!important;
+}

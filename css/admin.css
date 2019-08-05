@@ -1,0 +1,187 @@
+/*
+* Backend theme styles
+*/
+
+/* WPBakery Page Builder bug fix */
+option.fade,
+select.fade,
+input.fade {
+	opacity: 1;
+}
+.hide_in_vc_editor {
+    display: none;
+}
+
+/* WordPress UI fixes */
+body .notice,
+body div.error,
+body div.updated {
+    margin-left: 0;
+}
+.postbox .inside span {
+    color: #aaaaaa;
+    font-style: italic;
+}
+.nav-menus-php .item-edit {
+    overflow: hidden;
+}
+
+/* Theme demo importer */
+.radium-importer-message .import-log-text {
+    background: none repeat scroll 0 0 #fff;
+    font-family: courier;
+    font-size: 12px;
+    padding: 0 15px 15px;
+    color: darkblue;
+    border: 1px solid #e5e5e5;
+    margin-right: 15px;
+}
+.radium-importer-message .import-log-text pre {
+    margin: 0;
+}
+.radium-importer-wrap {
+    max-width: 1040px;
+}
+.theme-demo-import-items {
+    clear: both;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.theme-demo-import-item {
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid #dedede;
+    background: #fff;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+    width: 232px;
+}
+.theme-demo-import-item-title {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background: #FAFAFA;
+    border-bottom: 1px solid #dedede;
+}
+.theme-demo-import-item-button {
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #dedede;
+}
+.theme-demo-import-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.theme-demo-import-item:hover {
+    color: #0085ba;
+}
+.theme-demo-import-item a.theme-live-preview {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+}
+.configuration-error {
+    color: red;
+}
+.configuration-info {
+    color: blue;
+}
+.configuration-success {
+    color: green;
+}
+.theme-important-notice {
+    background: #ffffff;
+    margin: 0 0 30px;
+    padding: 15px 30px;
+    font-size: 17px;
+}
+.theme-important-notice li {
+    margin-bottom: 15px;
+}
+.theme-important-notice p {
+    font-size: 17px;
+}
+.wp-core-ui .button-primary.radium-import-start {
+    font-size: 14px;
+    height: 46px;
+    line-height: 44px;
+    padding: 0 36px;
+}
+
+/* Customizer Theme Options styles */
+#customize-theme-controls .accordion-section#accordion-panel-theme_settings_panel .accordion-section-title {
+    margin-bottom: 10px;
+}
+#customize-theme-controls .accordion-section#accordion-panel-theme_settings_panel .accordion-section-title:after {
+    content: "\f013";
+    font-family: "fontawesome";
+    display: block;
+}
+#customize-theme-controls .accordion-section#accordion-section-about .accordion-section-title {
+    margin-top: 10px;
+}
+#customize-theme-controls .customize-control-title {
+    color: #0085ba;
+}
+#customize-theme-controls .accordion-section#accordion-section-activation .accordion-section-title,
+#customize-theme-controls .accordion-section#accordion-section-warning .accordion-section-title {
+    color: red;
+}
+#customize-theme-controls .buttonset {
+    margin-top: 10px;
+}
+#customize-theme-controls .customize-control-kirki-radio-image .image label {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+#customize-theme-controls .kirki-input-container .select2 {
+    margin-top: 5px;
+}
+#customize-theme-controls .documentation-icon {
+    text-align: center;
+    margin: 30px 0;
+}
+#customize-theme-controls .customize-control.customize-control-repeater {
+    margin-bottom: 20px;
+}
+#customize-theme-controls .accordion-section#accordion-section-homepage .accordion-section-title:after {
+    content: "\f1b3";
+    font-family: "fontawesome";
+    display: block;
+}
+/* CMB2 */
+body .cmb-type-group .cmb2-wrap > .cmb-field-list > .cmb-row,
+body .cmb2-postbox .cmb2-wrap > .cmb-field-list > .cmb-row {
+    padding: 0.5em 0;
+}
+body .cmb2-text-small + span.cmb2-metabox-description {
+    margin-left: 10px;
+}
+body #poststuff .cmb2-postbox h2.hndle {
+    font-size: 15px;
+}
+body #poststuff .cmb2-postbox h2.hndle span {
+    color: #0085ba;
+}
+
+/* Theme Admin Messages */
+.theme-admin-message {
+    background: #ffffff;
+    border-left: 4px solid #46b450;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 10px 12px;
+}
+
+/* Custom category options */
+.taxonomy-category #addtag .cmb2-wrap {
+    font-size: 13px;
+}
